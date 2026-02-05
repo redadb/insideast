@@ -1,0 +1,229 @@
+<!-- 
+  REVIEWS SECTION - MASONRY GRID
+  Copy this entire code and paste into a Custom Liquid block in Shopify
+-->
+
+<style>
+  .reviews-section-insideast {
+    padding: 60px 20px;
+    background: #ffffff;
+  }
+
+  .reviews-container-insideast {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .reviews-header-insideast {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .reviews-header-insideast h2 {
+    font-size: 38px;
+    color: #1a2332;
+    margin-bottom: 12px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .reviews-header-insideast p {
+    font-size: 18px;
+    color: #6B7280;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .reviews-masonry-insideast {
+    columns: 3;
+    column-gap: 24px;
+  }
+
+  .review-card-insideast {
+    break-inside: avoid;
+    background: #F9FAFB;
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 24px;
+    transition: all 0.3s ease;
+    border: 1px solid #E5E7EB;
+  }
+
+  .review-card-insideast:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+    border-color: #D35400;
+  }
+
+  .review-stars-insideast {
+    color: #F59E0B;
+    font-size: 20px;
+    margin-bottom: 8px;
+    line-height: 1;
+  }
+
+  .review-text-insideast {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #374151;
+    margin-bottom: 20px;
+  }
+
+  .reviewer-info-insideast {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 16px;
+    border-top: 1px solid #E5E7EB;
+  }
+
+  .reviewer-avatar-insideast {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #D35400 0%, #E67E22 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+
+  .reviewer-details-insideast {
+    flex: 1;
+  }
+
+  .reviewer-name-insideast {
+    font-weight: 600;
+    color: #1a2332;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .reviewer-meta-insideast {
+    font-size: 12px;
+    color: #6B7280;
+  }
+
+  @media (max-width: 1024px) {
+    .reviews-masonry-insideast {
+      columns: 2;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .reviews-masonry-insideast {
+      columns: 1;
+    }
+    .reviews-header-insideast h2 {
+      font-size: 30px;
+    }
+  }
+</style>
+
+<section class="reviews-section-insideast">
+  <div class="reviews-container-insideast">
+    
+    <div class="reviews-header-insideast">
+      <h2>Loved by Designers Worldwide</h2>
+      <p>Real experiences from interior designers, hotels, and homeowners who chose InsideAst</p>
+    </div>
+
+    <div class="reviews-masonry-insideast">
+      
+      <!-- Review 1 -->
+      <div class="review-card-insideast">
+        <div class="review-stars-insideast">★★★★★</div>
+        <p class="review-text-insideast">"Having unlacquered brass in our kitchen has been a DREAM of mine. It's a stunning brass that in my opinion, only gets better as it ages. It is a bit of an investment BUT, it's a good investment if you've saved and KNOW it's exactly what you want."</p>
+        <div class="reviewer-info-insideast">
+          <div class="reviewer-avatar-insideast">MT</div>
+          <div class="reviewer-details-insideast">
+            <div class="reviewer-name-insideast">Mariah Tapia</div>
+            <div class="reviewer-meta-insideast">📷 126K followers • Interior Designer</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="review-card-insideast">
+        <div class="review-stars-insideast">★★★★★</div>
+        <p class="review-text-insideast">"We love these brass fixtures from @insideastdesigns! The craftsmanship is incredible and they've become the focal point of our design projects."</p>
+        <div class="reviewer-info-insideast">
+          <div class="reviewer-avatar-insideast">PD</div>
+          <div class="reviewer-details-insideast">
+            <div class="reviewer-name-insideast">Popham Design</div>
+            <div class="reviewer-meta-insideast">📷 115K followers • Home Decor</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="review-card-insideast">
+        <div class="review-stars-insideast">★★★★★</div>
+        <p class="review-text-insideast">"Each and every one I use and love in our very own home! Like this gorgeous shower system from @insideastdesigns. So keep swooning brass lovers! It's no longer so far out of reach!"</p>
+        <div class="reviewer-info-insideast">
+          <div class="reviewer-avatar-insideast">BB</div>
+          <div class="reviewer-details-insideast">
+            <div class="reviewer-name-insideast">Boxwood & Spruce</div>
+            <div class="reviewer-meta-insideast">📷 53K followers • Content Creator</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 4 -->
+      <div class="review-card-insideast">
+        <div class="review-stars-insideast">★★★★★</div>
+        <p class="review-text-insideast">"This home has so many unique features like the faucet and pot filler - they were custom made from an artisan in Morocco! The attention to detail is extraordinary."</p>
+        <div class="reviewer-info-insideast">
+          <div class="reviewer-avatar-insideast">BA</div>
+          <div class="reviewer-details-insideast">
+            <div class="reviewer-name-insideast">Brooke | Amelia Design</div>
+            <div class="reviewer-meta-insideast">Interior Designer</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 5 -->
+      <div class="review-card-insideast">
+        <div class="review-stars-insideast">★★★★★</div>
+        <p class="review-text-insideast">"Brb I will be staring at my tub filler from @insideastdesigns for the rest of the day! It's absolutely stunning and transformed our bathroom."</p>
+        <div class="reviewer-info-insideast">
+          <div class="reviewer-avatar-insideast">MH</div>
+          <div class="reviewer-details-insideast">
+            <div class="reviewer-name-insideast">Mallori Hanes</div>
+            <div class="reviewer-meta-insideast">📷 29K followers • Home Restoration</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 6 -->
+      <div class="review-card-insideast">
+        <div class="review-stars-insideast">★★★★★</div>
+        <p class="review-text-insideast">"We loved the aged brass from @insideastdesigns. The fixtures are the perfect complement and will patina beautifully with age. We have a love affair with quality craftsmanship!"</p>
+        <div class="reviewer-info-insideast">
+          <div class="reviewer-avatar-insideast">HC</div>
+          <div class="reviewer-details-insideast">
+            <div class="reviewer-name-insideast">Happy Customer</div>
+            <div class="reviewer-meta-insideast">📷 9K followers • Design Enthusiast</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- 
+  TO CUSTOMIZE:
+  1. Edit heading/subheading text (lines 100-101)
+  2. Add/remove review cards (copy entire <div class="review-card-insideast"> block)
+  3. Change colors in the <style> section:
+     - Background: #ffffff (line 6)
+     - Card background: #F9FAFB (line 32)
+     - Accent color: #D35400 (line 42)
+     - Stars: #F59E0B (line 45)
+-->
